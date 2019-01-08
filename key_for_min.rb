@@ -7,10 +7,9 @@ def key_for_min_value(name_hash)
 
 current_lowest_key = :david
 current_lowest_value = 50000
-  # define two variables for comparison, one for current lowest key and another for current lowest value.
+
   name_hash.each do |key, value|
     if value < current_lowest_value #value is less than the current lowest value
-      #assign value to lowest value variable
       current_lowest_value = value
       #assign key to lowest key variable
     
