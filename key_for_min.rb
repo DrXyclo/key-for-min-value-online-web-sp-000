@@ -5,7 +5,7 @@ require 'pry'
 
 def key_for_min_value(name_hash)
 
-current_lowest_key = :david
+current_lowest_key = nil
 current_lowest_value = 50000
 
   name_hash.each do |key, value|
