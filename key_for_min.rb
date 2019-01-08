@@ -5,6 +5,7 @@ name_hash = {adam: 1, bill: 2, carly: 3}
 
 def key_for_min_value(name_hash)
 
+current_lowest_key = :david
 
   # define two variables for comparison, one for current lowest key and another for current lowest value.
   name_hash.each do |key, value|
