@@ -17,7 +17,7 @@ current_lowest_value = 50000
       current_lowest_key = key 
     end
   end
-  outs current_lowest_key
+  puts current_lowest_key
 end
 key_for_min_value(name_hash)
 
