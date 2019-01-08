@@ -4,10 +4,11 @@ require 'pry'
 name_hash = {adam: 1, bill: 2, carly: 3}
 
 def key_for_min_value(name_hash)
-  
+
+
   # define two variables for comparison, one for current lowest key and another for current lowest value.
   name_hash.each do |key, value|
-    if #value is less than the current lowest value
+    if value #value is less than the current lowest value
       #assign value to lowest value variable
       #assign key to lowest key variable
     end
