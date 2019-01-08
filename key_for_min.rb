@@ -9,16 +9,14 @@ current_lowest_key = :david
 current_lowest_value = 50000
 
   name_hash.each do |key, value|
-    if value < current_lowest_value #value is less than the current lowest value
+    if value < current_lowest_value 
       current_lowest_value = value
-      #assign key to lowest key variable
-    
       current_lowest_key = key 
     end
   end
   puts current_lowest_key
 end
-key_for_min_value(name_hash)
+# key_for_min_value(name_hash)
 
 
 
