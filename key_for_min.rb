@@ -1,7 +1,7 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 require 'pry'
-name_hash = {adam: 1, bill: 2, carly: 3}
+# name_hash = {adam: 1, bill: 2, carly: 3}
 
 def key_for_min_value(name_hash)
 
